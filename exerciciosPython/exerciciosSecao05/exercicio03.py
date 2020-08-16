@@ -8,7 +8,7 @@ Do contrário, imprima o número ao quadrado.
             raiz = math.pow(número, 1/2)
             mostrar raiz quadrada do número.
         senão
-            quadrado = número**2
+            quadrado = número*numeor
             mostrar número elevado ao quadrado
     fim
 """
@@ -23,7 +23,7 @@ if num > 0:
     print(f"O número é positivo!")
     print(f"A raiz quadrada de {num} é {raiz:.3f}.")
 elif num < 0:
-    quadrado = num**2
+    quadrado = num * num
     print(f"O número é negativo! \n")
     print(f"O {num} elevado ao quadrado {quadrado}. \n")
 else:

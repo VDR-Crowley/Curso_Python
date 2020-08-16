@@ -8,7 +8,7 @@
     inicio
     receber um numero
     se numero > 0
-        quadrado = numero **2
+        quadrado = numero * numero
         raiz = math.pow(numero, 1/2)
         mostrar numero elevado ao quadrado
         mostar a raiz quadrada do numero
@@ -16,9 +16,9 @@
 
 """
 import math
-numero = int(input("Infomer um numero: "))
+numero = int(input("Infome um numero: "))
 if numero > 0:
-    quadrado = numero ** 2
+    quadrado = numero * numero
     raiz = math.pow(numero, 1/2)
     print(f"O resultado de {numero} ao quadrado é {quadrado}")
     print(f"A raiz quadrada de {numero} é {raiz:.3f} \n")
